@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%s\n" {a..z}{a..z} | while read c; do [ "$c" != "oo" ] && echo $c; done
+printf "%s\n" {a..z}{a..z} | comm -23 - <(echo oo)
