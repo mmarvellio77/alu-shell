@@ -1,2 +1,3 @@
 # ALU Shell
-Shell basics scripts
+
+Bash scripting exercises covering loops, conditionals, log parsing, and process/signal handling.
